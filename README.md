@@ -1,4 +1,4 @@
-# DapperMix - Professional Jawline Enhancement Website
+# JawlineBlueprint - Professional Jawline Enhancement Website
 
 A clean, minimalistic, and professional React website inspired by dappermix.com, featuring a sharp jawline image and modern design.
 
