@@ -14,7 +14,7 @@
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 4rem;
   align-items: center;
 }
@@ -128,9 +128,10 @@
 
 .image-wrapper img {
   width: 100%;
-  height: auto;
+  height: 700px;
   display: block;
   object-fit: cover;
+  object-position: center;
 }
 
 .image-overlay {
@@ -187,6 +188,15 @@
 
   .hero-container {
     padding: 0 1.5rem;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero-image {
+    display: none;
   }
 
   .hero-title {

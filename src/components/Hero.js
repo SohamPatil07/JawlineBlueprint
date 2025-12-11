@@ -12,32 +12,16 @@ function Hero() {
               <span className="highlight"> Perfect Jawline</span>
             </h2>
             <p className="hero-description">
-              Experience the confidence that comes with a sculpted, defined jawline. 
-              Our professional solutions help you achieve the look you've always wanted.
+              Discover the proven 5-step system to sculpt a masculine, aesthetic jawline naturally — backed by science, daily habits, and targeted exercises.
             </p>
             <div className="hero-buttons">
-              <button className="primary-button">Start Your Journey</button>
-              <button className="secondary-button">Learn More</button>
-            </div>
-            <div className="hero-stats">
-              <div className="stat">
-                <h3>10K+</h3>
-                <p>Happy Clients</p>
-              </div>
-              <div className="stat">
-                <h3>95%</h3>
-                <p>Success Rate</p>
-              </div>
-              <div className="stat">
-                <h3>5★</h3>
-                <p>Average Rating</p>
-              </div>
+              <button className="primary-button">Get the Ebook</button>
             </div>
           </div>
           <div className="hero-image">
             <div className="image-wrapper">
               <img 
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&h=1000&fit=crop&q=80" 
+                src="/jawline.png" 
                 alt="Sharp Jawline Profile" 
               />
               <div className="image-overlay"></div>

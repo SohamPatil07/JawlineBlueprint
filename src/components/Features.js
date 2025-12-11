@@ -4,24 +4,34 @@ import './Features.css';
 function Features() {
   const features = [
     {
-      title: 'Professional Results',
-      description: 'Achieve salon-quality results with our proven techniques and expert guidance.',
+      title: '1. Expert Jawline Exercises',
+      description: 'Targeted routines designed to activate underused facial and neck muscles for maximum definition.',
+      icon: '💪'
+    },
+    {
+      title: '2. Daily Habits for Long-Term Shape',
+      description: 'Simple lifestyle tweaks that enhance and maintain your jawline 24/7.',
+      icon: '⏰'
+    },
+    {
+      title: '3. Science-Based Breakdown',
+      description: 'Why these methods work, how the jaw structure responds, and what NOT to do.',
+      icon: '🔬'
+    },
+    {
+      title: '4. Diet + Water Retention Control',
+      description: 'Reduce puffiness, improve definition, and optimize bone visibility with smarter choices.',
+      icon: '🥗'
+    },
+    {
+      title: '5. Before/After Progress System',
+      description: 'Track your improvement with a guided 30-day plan included inside the e-book.',
+      icon: '📊'
+    },
+    {
+      title: '6. Bonus: LooksMax Basics',
+      description: 'Small improvements in grooming, lighting, posture, and angles that upgrade your entire appearance.',
       icon: '✨'
-    },
-    {
-      title: 'Natural Enhancement',
-      description: 'Subtle, natural-looking improvements that enhance your unique facial structure.',
-      icon: '🎯'
-    },
-    {
-      title: 'Safe & Effective',
-      description: 'Clinically tested methods that prioritize your safety and well-being.',
-      icon: '🛡️'
-    },
-    {
-      title: 'Lasting Confidence',
-      description: 'Build confidence that lasts with transformative results you can see.',
-      icon: '💎'
     }
   ];
 
@@ -29,9 +39,9 @@ function Features() {
     <section className="features" id="features">
       <div className="features-container">
         <div className="features-header">
-          <h2 className="features-title">Why Choose DapperMix?</h2>
+          <h2 className="features-title">What's Inside The E-Book</h2>
           <p className="features-subtitle">
-            We combine cutting-edge techniques with personalized care to deliver exceptional results
+            A complete system to transform your jawline naturally and permanently
           </p>
         </div>
         <div className="features-grid">
